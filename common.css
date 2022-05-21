@@ -73,8 +73,19 @@
 }
 
 .ex-7-img:hover{
-    filter: grayscale(100%);
+    filter: grayscale(.5) saturate(.5);
     transition: 2s;        
 }
 
+.ex-8-img:hover{
+    filter: grayscale(.5) saturate(.5);
+    border-radius: 25px;
+    transition: 2s;        
+}
 
+.ex-9-img:hover{
+    filter: grayscale(.5) saturate(.5);
+    border-radius: 25px;
+    transition: 2s;   
+    transform: scale(1.2);     
+}
