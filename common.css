@@ -35,3 +35,23 @@
 .margin-bottom-75 {
     margin-bottom: 75px;
 }
+
+/* ESERCIZI */
+
+.ex-1-square:hover{
+    background-color: red;
+    transition: 2s;
+}
+.ex-2-square:active{
+    width: 200px;
+    transition: 2s;
+}
+.ex-3-square:hover{
+    border-radius: 50px;
+    transition: 2s;
+}
+
+.ex-4-square:hover{
+   background-color: transparent;
+   transition: 2s;
+}
