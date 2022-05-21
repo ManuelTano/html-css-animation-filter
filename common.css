@@ -55,3 +55,26 @@
    background-color: transparent;
    transition: 2s;
 }
+
+.ex-5-square:hover{
+    height: 125px;
+    width: 125px;
+    transition: 2s;
+}
+
+.ex-5-square:active{
+    height: 75px;
+    width: 75px;
+    transition: 2s;
+}
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+
+.ex-7-img:hover{
+    filter: grayscale(100%);
+    transition: 2s;        
+}
+
+
