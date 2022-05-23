@@ -76,7 +76,7 @@
     transition: 2s;
 }
 .ex-2-square:active{
-    width: 1100px;
+    width: 100%;
     transition: 2s;
 }
 .ex-3-square:hover{
@@ -159,10 +159,10 @@
         left: 10%;
     }
     50% {
-        left: 25%;
+        left: (100% - 60px);
     }
     100% {
-        left: 50%;
+        left: 10%;
     }    
 }
 
@@ -175,10 +175,10 @@
         right: 10%;
     }
     50% {
-        right: 25%;
+        right: (100% - 60px);
     }
     100% {
-        right: 50%;
+        right: 10%;
     }
 }
 
